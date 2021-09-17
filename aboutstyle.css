@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("photo_2021-08-14_04-55-37.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.titleh{
+    position: relative;
+    top: 10px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+}
+.titleh > p{
+    color: #1062ba;
+    position: absolute;
+    left: 95px;
+    top: 25px;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: monospace;
+}
+.container{
+    position: relative;
+    top: 170px;
+    left: 10%;
+    width: 370px;
+    padding: 10px;
+}
+.container h2{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Times New Roman', sans-serif;
+    color: #fd5d01;
+    transition: 0.8s ease-in-out;
+    width: 0%;
+    margin-bottom: 15px;
+}
+.container h2:hover{
+    border-bottom: 3px solid #fd5d01;
+    width: 40%;
+}
+.container p{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.container ul {
+    list-style: armenian;
+    font-size: 18px;
+}
+.container ul li{
+    padding-bottom: 10px;
+    transition: all  0.5s ease-out;
+    color:#013b7d;
+    max-width: fit-content;
+    list-style-position: inside;
+}
+.container ul li:hover{
+    margin-left: 15px;
+}

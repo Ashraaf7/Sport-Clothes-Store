@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("photo_2021-08-14_04-55-37.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.reg{
+    position: relative;
+    top: 30%;
+    margin-left: 155px;
+}
+#te1 ,#te2 , #te3 ,#te4{
+    width: 90%;
+    padding: 2px;
+    height: 25px;
+    margin: 5px;
+    background-color: transparent;
+    border-color: transparent transparent #2879cffa transparent;
+    font-size: 15px;
+    font-weight: 500;
+}
+.b1{
+    width: 55%;
+    height: 35px;
+    background-image: linear-gradient(138deg,#0c61bc ,#357bc796);
+    border-radius: 35px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 55px;
+    margin-top: 18px;
+    font-family: sans-serif;
+    border-color: transparent;
+    cursor: pointer;
+}
+form{
+    
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border: 3px solid #357cc7;
+    border-radius: 8px;
+    box-shadow: -2px 2px 8px 5px #357cc785;
+}
+.p1 {
+   
+    font-size: 60px;
+    font-family: cursive;
+    height: 100px;
+    width: 400px;
+    margin: 20px;
+    font-style: oblique ;
+    font-weight: bold;
+    border-radius: 35px;
+    cursor: pointer;
+    text-shadow: 20px;
+    background-color: blue;
+    color: #fff;
+
+}
+.titleh{
+    position: relative;
+    top: 10px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+}
+.titleh > p{
+    color: #1062ba;
+    position: absolute;
+    left: 95px;
+    top: 25px;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: monospace;
+}

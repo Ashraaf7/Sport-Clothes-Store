@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+}
+.head1{
+    background-image: url("photo_2021-08-14_04-55-37.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 8px #1056fe47;
+}
+.titleh{
+    position: relative;
+    top: 10px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+}
+.titleh > p{
+    color: #1062ba;
+    position: absolute;
+    left: 95px;
+    top: 25px;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: monospace;
+}
+.section{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.section >h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: fantasy;
+}
+.section > p{
+    font-size: 18px;
+    margin-top: 20px;
+    width: 450px;
+    color: black;
+    font-family: cursive;
+}
+.section >button{
+    background-image: linear-gradient(138deg,#004fa4 ,#357bc787);
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    margin-top: 45px;
+    left: 100px;
+    border-radius: 35px;
+}
+/*Style for Products*/
+.header{
+    position: relative;
+    
+}
+.header h2{
+    position: absolute;
+    font-size: 50px;
+    left: 44%;
+    top: 30px;
+}
+.cards{
+    position: relative;
+    top: 90px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+}   
+.card1 ,.card2 ,.card3 ,.card4 ,.card5 ,.card6 ,.card7 ,.card8 ,.card9 ,.card10,.card11,.card12,.card13 {
+    top: 90px;
+    margin-left: 25px;
+    border: 4px solid #679bd3;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #ccccccba;
+    box-shadow: -5px 4px 5px #bababa;
+}
+.cards  p  {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+.cards img  {
+    width: 300px;
+    margin: -5px;
+    margin-bottom: -10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+     margin-left: 15px;
+}
+/*Carousel*/
+.carousel-container{
+    width:33%;
+    margin:auto;
+    border:4px solid rgb(0, 90, 192);
+    overflow: hidden;
+    position: relative;
+    top:100px;
+   
+}
+.carousel-slider{
+    display: flex;
+    width:100%;
+    height:500px;
+   
+}
+
+#prevbtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#nextbtn
+{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer
+
+}
+.cap h2{
+   color: aquamarine;
+    position: absolute;
+    top:20px;
+    font-size: 40px;
+    font-weight: bold;
+   margin-left: 20px;
+   text-align: justify;
+   
+  
+  
+}
+.al 
+{
+    text-decoration: wavy;
+    padding: 10px 30px;
+    transition: 0.6s ease;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline;
+    top: 10px;
+    width:20px;
+    margin: 0px 0px 0px 1300px ;
+   
+   
+
+}
+.al:hover
+{
+    border-radius: 5px;
+    background-color: rgb(40, 14, 156) ;
+    color: rgb(255, 255, 255);
+   
+   
+}
+
